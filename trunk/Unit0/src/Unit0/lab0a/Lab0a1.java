@@ -40,6 +40,7 @@ public class Lab0a1
                 for(int i=0; i<3;i++){
                     System.out.print("+++++++++++++++++++++++++\n" );
                 }
+                System.out.print( 1 + 4 + " " + 2 + 3);
 
 
 
