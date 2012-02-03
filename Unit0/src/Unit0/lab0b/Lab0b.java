@@ -23,13 +23,14 @@ public class Lab0b
                 long longOne = 999999999;
                 //long longlongOne[]={999999999,999999999};
 		//decimal variables
-
+                float floatOne=(float)90.9;
+                float doubleOne=(float)90.9;
 
 		//other integer types
 
 
 		//other types
-
+                
 
 		//output your information here
 		System.out.println("////////////////////////////////////////");
@@ -41,12 +42,15 @@ public class Lab0b
                 System.out.println("*16 bit - shortIntegerOne = "+shortOne+"\t\t*");
                 System.out.println("*32 bit - integerOne = "+integerOne+"\t\t*");
                 System.out.println("*64 bit - longOne = "+longOne+"\t\t*");
-               // System.out.println("*128 bit - longlongOne = "+(longlongOne[0]+longlongOne[1])+"\t\t*");
+                // System.out.println("*128 bit - longlongOne = "+(longlongOne[0]+longlongOne[1])+"\t\t*");
                 System.out.println("*                                       *");
 		System.out.println("*            decimal types              *");
 		System.out.println("*                                       *");
-                
-
+                System.out.println("*32 bit - floatOne = "+floatOne+"\t\t\t*");
+                System.out.println("*64 bit - doubleOne = "+doubleOne+"\t\t\t*");
+                System.out.println("*                                       *");
+		System.out.println("*           textvalue types             *");
+		System.out.println("*                                       *");
 
 
 
