@@ -25,6 +25,7 @@ public class ActorOne
       world.add(new Location(9,9), stan);
       
       world.show();       
-      dude.act();
+      //dude.act();
+      System.out.println(dude.getDirection());
    }
 }
