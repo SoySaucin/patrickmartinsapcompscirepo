@@ -1,6 +1,6 @@
 // A+ Computer Science
 // www.apluscompsci.com
-
+package netbeansgw;
 import info.gridworld.grid.Location;
 
 public class LocationOne
