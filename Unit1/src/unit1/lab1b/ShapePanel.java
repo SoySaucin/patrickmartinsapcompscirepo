@@ -17,10 +17,12 @@ import java.awt.event.ActionListener;
 
 public class ShapePanel extends JPanel
 {
+        Shape shape;
 	public ShapePanel()
 	{
 		setBackground(Color.WHITE);
 		setVisible(true);
+                shape = new Shape(600,600,40,40,Color.GREEN);
 	}
 
 	public void update(Graphics window)
@@ -40,7 +42,8 @@ public class ShapePanel extends JPanel
 		window.setFont(new Font("TAHOMA",Font.BOLD,18));
 		window.drawString("CREATE YOUR OWN SHAPE!",40,40);
 
-
+                
+                shape.draw(window);
 		//instantiate a Shape
 		//tell your shape to draw
 

@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -11,13 +11,17 @@ public class Sum
 
 	public void setNums(double num1, double num2)
 	{
+            one = num1;
+            two = num2;
 	}
 
 	public void sum( )
 	{
+            sum = one + two; 
 	}
 
 	public void print( )
 	{
+            
 	}
 }
