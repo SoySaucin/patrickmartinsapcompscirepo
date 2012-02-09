@@ -48,7 +48,12 @@ public class Student {
         this.studentID =ID;
         
     }
-    
+    public void setGrades(double[][] gradelist){
+        grades=gradelist;
+    }
+    public double[][] getGrades(){
+        return grades;
+    }
     public double getGPA(){
         double classgrade=0;
         double grade = 0;

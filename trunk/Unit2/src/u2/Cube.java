@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -11,13 +11,17 @@ public class Cube
 
 	public void setSide(int s)
 	{
+            side = s;
 	}
 
 	public void calculateSurfaceArea( )
 	{
+            surfaceArea = 6*(side*side);
 	}
 
 	public void print( )
 	{
+         
+           System.out.println("the surface area is :: "+surfaceArea); 
 	}
 }

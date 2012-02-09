@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//ï¿½ A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -12,7 +12,22 @@ public class Lab02d
 	 	test.setSide(112);
 	 	test.calculateSurfaceArea();
 	 	test.print();
-
+                
+	 	test.setSide(4);
+	 	test.calculateSurfaceArea();
+	 	test.print();
+                test.setSide(33);
+	 	test.calculateSurfaceArea();
+	 	test.print();
+                test.setSide(50);
+	 	test.calculateSurfaceArea();
+	 	test.print();
+                test.setSide(5);
+	 	test.calculateSurfaceArea();
+	 	test.print();
+                test.setSide(19);
+	 	test.calculateSurfaceArea();
+	 	test.print();
 	 	//add more test cases
 	 	
 	 	

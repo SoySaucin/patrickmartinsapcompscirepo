@@ -21,6 +21,9 @@ public class Shape
    public Shape(int x, int y, int wid, int ht, Color col)
    {
 		xPos = x;
+                yPos = y;
+                width = wid;
+                height = ht;
 		//finish this constructor
    }
 
@@ -29,11 +32,7 @@ public class Shape
    {
       window.setColor(color);
       window.fillRect(xPos, yPos, width, height);
-
-      //draw whatever you want
-      //    ^
-      //  [ :: ]
-      //    ()
+      window.drawRect((int)(Math.random()*(xPos+1)),(int)(Math.random()*(yPos+1)),width,height);
 
    }
 

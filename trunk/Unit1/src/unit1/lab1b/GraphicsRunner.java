@@ -6,9 +6,8 @@ package unit1.lab1b;
 //Class -
 //Lab  -
 
+import java.awt.Graphics;
 import javax.swing.JFrame;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class GraphicsRunner extends JFrame
 {
@@ -25,9 +24,21 @@ public class GraphicsRunner extends JFrame
 
 		setVisible(true);
 	}
+    @Override
+        public void update(Graphics window)
+	{
+          super.update(window);
+          if (!((this.getWidth()%2))){
+                    System.out.println("even");
+          }else{
+                    System.out.println("odd");
+          }
+          
+        }
 
 	public static void main( String args[] )
 	{
 		GraphicsRunner run = new GraphicsRunner();
+                
 	}
 }
